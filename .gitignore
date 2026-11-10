@@ -1,0 +1,15 @@
+# Your real settings. Never commit this: it holds the recipient, the sender,
+# your SMTP server and username, and the DPAPI blob from -SetPassword.
+# ram-altman.example.ini is the one that belongs in the repo.
+ram-altman.ini
+
+# Anything a local run leaves behind, if STATE_DIR points into the repo.
+usage.csv
+last_sent
+lock
+bag_*
+
+# Maildrop output.
+outbox
+outbox.txt
+*.outbox
